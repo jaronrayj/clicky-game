@@ -51,7 +51,7 @@ class Wrapper extends Component {
                 <Score
                     score={this.state.score}
                     hiScore={this.state.hiScore} />
-                <Container>
+                <Container className="mainBox">
                     <Card.Group itemsPerRow={5}>
                         {this.randomOrder(images).map(img =>
                             <>
