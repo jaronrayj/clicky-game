@@ -1,52 +1,42 @@
 [
     {
         "id": 1,
-        "color": "black",
-        "image": "https://picsum.photos/200"
+        "img": "https://picsum.photos/id/918/200/200"
     },
     {
         "id": 2,
-        "color": "blue",
-        "image": "https://picsum.photos/200"
+        "img": "https://picsum.photos/id/557/200/200"
     },
     {
         "id": 3,
-        "color": "red",
-        "image": "https://picsum.photos/200"
+        "img": "https://picsum.photos/id/402/200/200"
     },
     {
         "id": 4,
-        "color": "green",
-        "image": "https://picsum.photos/200"
+        "img": "https://picsum.photos/id/371/200/200"
     },
     {
         "id": 5,
-        "color": "orange",
-        "image": "https://picsum.photos/200"
+        "img": "https://picsum.photos/id/443/200/200"
     },
     {
         "id": 6,
-        "color": "pink",
-        "image": "https://picsum.photos/200"
+        "img": "https://picsum.photos/id/523/200/200"
     },
     {
         "id": 7,
-        "color": "purple",
-        "image": "https://picsum.photos/200"
+        "img": "https://picsum.photos/id/482/200/200"
     },
     {
         "id": 8,
-        "color": "yellow",
-        "image": "https://picsum.photos/200"
+        "img": "https://picsum.photos/id/360/200/200"
     },
     {
         "id": 9,
-        "color": "brown",
-        "image": "https://picsum.photos/200"
+        "img": "https://picsum.photos/id/280/200/200"
     },
     {
         "id": 10,
-        "color": "indigo",
-        "image": "https://picsum.photos/200"
+        "img": "https://picsum.photos/id/400/200/200"
     }
 ]

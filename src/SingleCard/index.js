@@ -9,9 +9,12 @@ function SingleCard(props) {
             <Card.Content
                 className="box"
                 key={props.key}
-                onClick={props.cardCheck}>
+                onClick={e => props.handleClick(e)}
+                data-id={props.id}
+            >
 
-                <Image src={props.src} />
+                <Image src={props.src}
+                    data-id={props.id} />
 
             </Card.Content>
         </Card>
