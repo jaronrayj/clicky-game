@@ -24,9 +24,23 @@ class Wrapper extends Component {
             this.gameOver();
         } else {
             this.state.cardChosen.push(cardId);
-            this.setState(state => {
-                state.score++;
-            });
+            let newScore = this.state.score + 1
+            if (this.state.hiScore <= this.state.score) {
+                this.setState({
+                    score: newScore,
+                    hiScore: newScore
+                });
+                if (this.state.score === images.length) {
+                    alert("You win!")
+                    this.gameOver();
+                }
+            } else {
+                this.setState({
+                    score: this.state.score + 1
+                })
+            }
+
+
         }
     }
 
@@ -34,16 +48,14 @@ class Wrapper extends Component {
 
     gameOver = () => {
         alert("You lose");
-        this.setState(state => {
-            state.cardChosen = []
-        });
+        this.setState({
+            cardChosen: [],
+            score: 0
+        }
+        );
     }
 
-    // randomUrl = () => {
-    //     let random = 100 + Math.floor(Math.random() * 98)
-    //     let url = `https://picsum.photos/id/${random}/200/200`
-    //     return url;
-    // }
+
 
     render() {
         return (
