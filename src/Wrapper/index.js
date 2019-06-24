@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Container, Card } from "semantic-ui-react"
+import { Container, Card, Label } from "semantic-ui-react"
 import "./style.css"
 import SingleCard from "../SingleCard";
 import shuffle from 'shuffle-array'
@@ -74,6 +74,9 @@ class Wrapper extends Component {
                             </>
                         )}
                     </Card.Group>
+                        <Label className="center"> 
+                            <h3>Pick an image! Don't pick the same one twice, or else you lose.</h3>
+                        </Label>
                 </Container>
             </>
         )
