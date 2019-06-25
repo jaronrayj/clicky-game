@@ -30,7 +30,7 @@ class Wrapper extends Component {
                     score: newScore,
                     hiScore: newScore
                 });
-                if (this.state.score === images.length) {
+                if (this.state.score === 10) {
                     alert("You win!")
                     this.gameOver();
                 }
@@ -74,9 +74,12 @@ class Wrapper extends Component {
                             </>
                         )}
                     </Card.Group>
-                        <Label className="center"> 
+                    <div className="center">
+
+                        <Label>
                             <h3>Pick an image! Don't pick the same one twice, or else you lose.</h3>
                         </Label>
+                    </div>
                 </Container>
             </>
         )
