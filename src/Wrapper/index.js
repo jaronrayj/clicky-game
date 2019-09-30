@@ -39,8 +39,6 @@ class Wrapper extends Component {
                     score: this.state.score + 1
                 })
             }
-
-
         }
     }
 
